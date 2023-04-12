@@ -1,0 +1,13 @@
+const nome = prompt('Nome completo:')
+const dataNasc = prompt('Data de nascimento:')
+const endereço = prompt('Seu endereço:')
+const cpf = Number(prompt('Seu CPF:'))
+const escolaridade = prompt('Escolaridade:')
+const cnh = Boolean(prompt('Tem CNH?'))
+const filhos = Number(prompt('Quantos filhos possui?'))
+const cargoAtual = prompt('Cargo atual:')
+const salario = Number(prompt('Salário:'))
+const comissao = prompt('Recebe comissão? Se sim, informe a porcentagem, caso não, responda com zero')
+const admissao = prompt('Ano de admissão:')
+
+console.log(`Nome completo: ${typeof nome, nome}.\nData de nascimento: ${typeof dataNasc, dataNasc}.\nEndereço: ${typeof endereço, endereço}.\nCPF: ${typeof cpf, cpf}.\nEscolaridade: ${typeof escolaridade, escolaridade}.\nTem CNH: ${typeof cnh, cnh}.\nQuantos filhos possui: ${typeof filhos, filhos}.\nCargo atual: ${typeof cargoAtual, cargoAtual}.\nSalário: ${typeof salario, salario}.\nRecebe comissão?: ${typeof comissao, comissao}.\nAno de admissão: ${typeof admissao, admissao}.`)
